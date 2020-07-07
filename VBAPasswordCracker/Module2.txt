@@ -1,0 +1,5 @@
+Sub unprotected()
+    If Hook Then
+        MsgBox "Unlocked", vbInformation, "Another Hoop production"
+    End If
+End Sub
